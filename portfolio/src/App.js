@@ -10,11 +10,14 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-        <nav className='nav'>
-          <Link to='/'>Home</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/contact'>Contact</Link>
-        </nav>
+        <div className='banner'>
+          <h2>Spencer Wood's Portfolio</h2>
+          <nav className='nav'>
+            <Link to='/' className='links'>Home</Link>
+            <Link to='/about' className='links'>About</Link>
+            <Link to='/contact' className='links'>Contact</Link>
+          </nav>
+        </div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

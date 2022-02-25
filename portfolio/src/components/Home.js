@@ -7,16 +7,16 @@ const Home = () => {
                 <h1>My Notable Projects</h1>
             </div>
             <div className='home-body'>
-                <div className='home-tile-1'>
+                <div className='home-tile'>
                     <h2>Project Here</h2>
                 </div>
-                <div className='home-tile-2'>
+                <div className='home-tile'>
                     <h2>Project Here</h2>
                 </div>
-                <div className='home-tile-3'>
+                <div className='home-tile'>
                     <h2>Project Here</h2>
                 </div>
-                <div className='home-tile-3'>
+                <div className='home-tile'>
                     <h2>Project Here</h2>
                 </div>
             </div>

@@ -42,7 +42,17 @@ const Home = () => {
                 </div>
             </div>
             <div className='home-right'>
-                <h2 className='tools-h2'>Tools</h2>
+                <h2 className='tools-h2'>Tools/Libraries</h2>
+                <div className='tools-body'>
+                    <div className='vscode-tile'>
+                        <p>VSCode</p>
+                        <div className='vscode-icon'></div>
+                    </div>
+                    <div className='git-tile'>
+                        <p>Git CLI</p>
+                        <div className='git-icon'></div>
+                    </div>
+                </div>
             </div>
         </div>
         

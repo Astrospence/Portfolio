@@ -109,6 +109,8 @@ table {
 .javascript-tile, .html-tile, .css-tile, .node-tile, .sql-tile {
     text-align: center;
     margin-top: 5%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 .javascript-icon, .html-icon, .css-icon, .node-icon, .sql-icon {
     width: 120px;
@@ -145,6 +147,32 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.tools-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.vscode-tile, .git-tile {
+    text-align: center;
+    margin-top: 5%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+.vscode-icon, .git-icon {
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.vscode-icon {
+    background-image: url('./components/vscode.png');
+    background-size: 100px;
+}
+.git-icon {
+    background-image: url('./components/git.png');
+    background-size: 100px;
 }
 @keyframes fadeIn {
     from {opacity: 0;}

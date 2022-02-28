@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background-color: rgb(233, 233, 233);
+    font-family: 'Roboto Slab', serif;
 }
 ol, ul {
 	list-style: none;
@@ -59,7 +60,7 @@ table {
     box-shadow: 0 2px 4px darkgray;
 }
 .nav {
-    width: 20%;
+    width: 26%;
     display: flex;
     justify-content: space-between;
 }
@@ -83,7 +84,7 @@ table {
 .home-tile {
     border-bottom-right-radius: 20px;
     box-shadow: 1px 3px 5px 2px darkgray;
-    background-color: #caf0f8;
+    background-color: #0077b6;
     margin: 2% 30%;
     padding: 1%;
     animation-name: fadeIn;
@@ -169,7 +170,7 @@ table {
 }
 .vscode-icon {
     background-image: url('./components/vscode.png');
-    background-size: 75px;
+    background-size: 70px;
 }
 .git-icon {
     background-image: url('./components/git.png');
@@ -225,12 +226,16 @@ h1 {
     text-align: center;
     margin-bottom: 5%;
 }
-h2, h3 {
+h2 {
     color: #03045e;
     font-size: 2rem;
 }
+h3 {
+    color: white;
+    font-size: 2rem;
+}
 .lang-h2, .tools-h2 {
-    margin: 3% 0;
+    margin: 10% 0 5%;
 }
 .links {
     color: #03045e;
@@ -241,7 +246,7 @@ h2, h3 {
     color: #0077b6;
 }
 .home-tile:hover {
-    background-color: #90e0ef;
+    background-color: #0096c7;
 }
 
 /*About Page Styles*/
@@ -268,4 +273,20 @@ h2, h3 {
     background-color: white;
     box-shadow: 0 2px 4px darkgray;
     border-radius: 10px;
+}
+.email-tile, .linkedin-tile, .github-tile {
+    border-bottom-right-radius: 40px;
+    box-shadow: 1px 2px 5px 2px darkgray;
+    text-align: center;
+    margin: 1% 10%;
+    padding: 2% 2% 2%;
+    background-color: #0077b6;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+.email-tile h3 {
+    color: white;
+}
+.email-tile:hover, .linkedin-tile:hover, .github-tile:hover {
+    background-color: #0096c7;
 }

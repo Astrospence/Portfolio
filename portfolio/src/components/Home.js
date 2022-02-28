@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className='home-main'>
             <div className='home-left'>
-                <h2 className='lang-h2'>Languages</h2>
+                <h2 className='lang-h2'>Languages:</h2>
                 <div className='lang-body'>
                     <div className='javascript-tile'>
                         <p>JavaScript</p>
@@ -42,7 +42,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='home-right'>
-                <h2 className='tools-h2'>Tools/Libraries</h2>
+                <h2 className='tools-h2'>Tools/Libraries:</h2>
                 <div className='tools-body'>
                     <div className='vscode-tile'>
                         <p>VSCode</p>

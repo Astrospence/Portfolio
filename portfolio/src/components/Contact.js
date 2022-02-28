@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 const Contact = () => {
     const [ clicked, setClicked ] = useState(false)
 
-    const emailHandler = e => {
-        clicked ? setClicked(false) : setClicked(true)
+    const emailHandler = () => {
+        setClicked(true)
     }
 
     const linkedinHandler = () => {

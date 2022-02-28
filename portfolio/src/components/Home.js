@@ -52,6 +52,39 @@ const Home = () => {
                         <p>Git CLI</p>
                         <div className='git-icon'></div>
                     </div>
+                    <div className='jest-tile'>
+                        <p>Jest</p>
+                        <div className='jest-icon'></div>
+                    </div>
+                    <div className='cypress-tile'>
+                        <div className='cypress-icon'></div>
+                    </div>
+                    <div className='sqlite-tile'>
+                        <div className='sqlite-icon'></div>
+                    </div>
+                    <div className='postgresql-tile'>
+                        <div className='postgresql-icon'></div>
+                    </div>
+                    <div className='heroku-tile'>
+                        <div className='heroku-icon'></div>
+                    </div>
+                    <div className='netlify-tile'>
+                        <div className='netlify-icon'></div>
+                    </div>
+                    <div className='react-tile'>
+                        <p>React</p>
+                        <div className='react-icon'></div>
+                    </div>
+                    <div className='redux-tile'>
+                        <p>Redux</p>
+                        <div className='redux-icon'></div>
+                    </div>
+                    <div className='axios-tile'>
+                        <div className='axios-icon'></div>
+                    </div>
+                    <div className='express-tile'>
+                        <div className='express-icon'></div>
+                    </div>
                 </div>
             </div>
         </div>

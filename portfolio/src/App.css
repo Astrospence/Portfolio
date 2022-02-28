@@ -152,27 +152,68 @@ table {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 5%;
     overflow: auto;
 }
-.vscode-tile, .git-tile {
+.vscode-tile, .git-tile, .jest-tile, .cypress-tile, .sqlite-tile, .postgresql-tile, .heroku-tile, .netlify-tile, .react-tile, .redux-tile, .axios-tile, .express-tile {
     text-align: center;
     margin-top: 5%;
     animation-name: fadeIn;
     animation-duration: 1s;
 }
-.vscode-icon, .git-icon {
-    width: 50px;
-    height: 40px;
+.vscode-icon, .git-icon, .jest-icon, .cypress-icon, .sqlite-icon, .postgresql-icon, .heroku-icon, .netlify-icon, .react-icon, .redux-icon, .axios-icon, .express-icon {
+    width: 80px;
+    height: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .vscode-icon {
     background-image: url('./components/vscode.png');
-    background-size: 100px;
+    background-size: 75px;
 }
 .git-icon {
     background-image: url('./components/git.png');
-    background-size: 100px;
+    background-size: 65px;
+}
+.jest-icon {
+    background-image: url('./components/jest.png');
+    background-size: 115px;
+}
+.cypress-icon {
+    background-image: url('./components/cypress.png');
+    background-size: 80px;
+}
+.sqlite-icon {
+    background-image: url('./components/sqlite.jpg');
+    background-size: 105px;
+}
+.postgresql-icon {
+    background-image: url('./components/postgresql.jpg');
+    background-size: 70px;
+}
+.heroku-icon {
+    background-image: url('./components/heroku.png');
+    background-size: 120px;
+}
+.netlify-icon {
+    background-image: url('./components/netlify.png');
+    background-size: 80px;
+}
+.react-icon {
+    background-image: url('./components/react.png');
+    background-size: 80px;
+}
+.redux-icon {
+    background-image: url('./components/redux.png');
+    background-size: 70px;
+}
+.axios-icon {
+    background-image: url('./components/axios.png');
+    background-size: 80px;
+}
+.express-icon {
+    background-image: url('./components/express.png');
+    background-size: 70px;
 }
 @keyframes fadeIn {
     from {opacity: 0;}

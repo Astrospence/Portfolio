@@ -1,18 +1,17 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css' 
 
-const App = () => {
+import Home from './components/home'
+
+export default function App() {
   return (
     <div className='App'>
-      <div className='bannerSlide'>
-
-      </div>
-      <div className='me'>
-        <img src='/imgs/me.jpg' alt='Spencer Wood smiling'/>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
-
-export default App

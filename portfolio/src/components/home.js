@@ -7,7 +7,7 @@ import TechStack from './techStack'
 
 export default function Home() {
     return (
-        <div>
+        <div className='main'>
             <Banner />
             <Bio />
             <Qualities />

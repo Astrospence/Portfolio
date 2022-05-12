@@ -114,12 +114,31 @@ table {
 /*Projects Component Styles*/
 .projects {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     margin: 0 15%;
     padding: 0 2%;
     background-color: #003356;
     height: 400px;
+}
+.project1 {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 20%;
+}
+.project1 img {
+    max-height: 100%;
+}
+.project2 {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 20%;
+}
+.project2 img {
+    max-height: 100%;
 }
 /*TechStack Component Styles*/
 .techStack {

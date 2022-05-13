@@ -67,9 +67,8 @@ table {
     align-items: center;
     justify-content: space-between;
     margin: 0 15%;
-    padding: 0 2% 1%;
+    padding: 5% 2%;
     background-color: #00253e;
-    height: 400px;
 }
 .me img {
     max-width: 25%;
@@ -80,6 +79,7 @@ table {
 .bio {
     max-width: 70%;
     font-size: 1.3rem;
+    margin-bottom: 2%;
 }
 .bio h2 {
     text-align: center;
@@ -92,9 +92,8 @@ table {
     align-items: center;
     justify-content: space-between;
     margin: 0 15%;
-    padding: 0 2%;
+    padding: 5% 2%;
     background-color: #002e4e;
-    height: 400px;
 }
 .hireMe img {
     max-width: 35%;
@@ -116,29 +115,62 @@ table {
     display: flex;
     flex-direction: column;
     margin: 0 15%;
-    padding: 0 2%;
+    padding: 1% 2% 2%;
     background-color: #003356;
-    height: 400px;
 }
-.project1 {
-    border: 1px solid white;
+.projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3% 0 5%;
+}
+.project1, .project2, .project3, .project4, .project5, .project6 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-height: 20%;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 5%;
 }
-.project1 img {
-    max-height: 100%;
+.description {
+    margin: 0 2% 0 5%;
+    width: 100%;
 }
-.project2 {
-    border: 1px solid white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-height: 20%;
+.description h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1%;
 }
-.project2 img {
-    max-height: 100%;
+.projectImg {
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    height: 100%;
+    width: 20%;
+    background-repeat: no-repeat;
+}
+#photoOfMe {
+    background-image: url('./imgs/me.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#underdogDevs {
+    background-image: url('./imgs/underdogDevs.png');
+    background-position: center;
+    background-size: cover;
+}
+#nerfTag {
+    background-image: url('https://images.unsplash.com/photo-1636581881418-2c45c2b9af4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: left center;
+    background-size: cover;
+}
+#generic {
+    background-image: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80');
+    background-position: 20% 50%;
+    background-size: cover;
+}
+#pokeball {
+    background-image: url('./imgs/Pokeball.jpeg');
+    background-position: center;
+    background-size: contain;
 }
 /*TechStack Component Styles*/
 .techStack {

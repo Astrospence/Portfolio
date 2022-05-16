@@ -9,7 +9,7 @@ export default function BannerGitHub() {
     return (
         <div className='banner'>
             <h2>Connect with me on</h2>
-                <div className='github' onClick={onClick}></div>
+            <div className='github' onClick={onClick}></div>
         </div>
     )
 }

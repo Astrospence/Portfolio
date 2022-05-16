@@ -60,6 +60,13 @@ table {
     flex-direction: column;
     align-items: center;
 }
+.buttons {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
 .banner h2 {
     font-size: 2rem;
     font-weight: bold;

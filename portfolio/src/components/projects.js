@@ -26,7 +26,7 @@ export default function Projects() {
         <div className='projects'>
             <h2>My Projects</h2>
             <div className='project1'>
-                <div id='photoOfMe' className='projectImg' onClick={onClickPortfolio}></div>
+                <div id='growing' className='projectImg' onClick={onClickPortfolio}></div>
                 <div className='description'>
                     <h3>My Portfolio - Front End</h3>
                     <p>This website you're viewing is a personal project as well as a portfolio to house a more comprehensive view of my journey and my projects. I will continuously develop this site as I work to improve my code and implement best practices that I learn. I used <span style={{'fontWeight':'bold', 'color':'white'}}>React.js, CSS, HTML &#40;JSX&#41;, and JavaScript</span> to put it all together. In the interest of expansion and scaling, I implemented <span style={{'fontWeight':'bold', 'color':'white'}}>React Router</span> for client-side routing. If you'd like to take a look at my GitHub repo of this project, you can click <a href={'https://github.com/Astrospence/Portfolio/tree/main/portfolio'} target={'_blank'} rel={'noreferrer'}><span style={{'fontWeight':'bold','color':'lightgreen'}}>here</span></a>.</p>

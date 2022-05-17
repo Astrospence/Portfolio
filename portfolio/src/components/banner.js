@@ -12,7 +12,7 @@ export default function Banner() {
 
     return (
         <div className='banner'>
-            <h2>Connect with me on</h2>
+            <h2>Click to Connect with me on</h2>
             <div className='buttons'>
                 <div className='linkedin' onClick={onClickLinkedin}></div>
                 <div className='github' onClick={onClickGitHub}></div>

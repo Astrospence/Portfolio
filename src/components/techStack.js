@@ -31,6 +31,7 @@ export default function TechStack() {
                 </div>
                 <div id='cypress' className='tile'></div>
                 <div id='netlify' className='tile'></div>
+                <div id='vercel' className='tile'></div>
                 <div id='heroku' className='tile'></div>
                 <div id='git' className='tile'>
                     <h3>Git</h3>

@@ -90,7 +90,7 @@ table {
     background-image: url('./imgs/linkedinbanner.png');
     background-size: 90%;
     animation-name: linkedinSwitch;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: alternate;
@@ -99,7 +99,7 @@ table {
     background-image: url('./imgs/github.jpg');
     background-size: 50%;
     animation-name: githubSwitch;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: alternate;

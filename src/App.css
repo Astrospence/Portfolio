@@ -50,13 +50,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*Standardized Styles*/
+.container {
+    margin: 0 15%;
+    padding: 3%;
+}
+.banner, .me, .hireMe, .projects, .techStack {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    padding: 2% 3%;
+}
+h2 {
+    margin: 2% 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+#one {
+    background-color: #002137;
+}
+#two {
+    background-color: #00253e;
+}
+#three {
+    background-color: #002e4e;
+}
+#four {
+    background-color: #003356;
+}
+#five {
+    background-color: #003a61;
+}
+
+
+
+
 /*Banner Component Styles*/
 .banner {
     height: 250px;
     text-align: center;
-    margin: 2% 15% 0;
-    padding: 2%;
-    background-color: #002137;
+    background-color: #002945;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,13 +103,6 @@ table {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2% 0;
-}
-.banner h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 2%;
 }
 .linkedin, .github {
     border: 1px solid white;
@@ -128,9 +157,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 15%;
-    padding: 5% 2%;
-    background-color: #00253e;
+    background-color: #002d4a;
 }
 .me img {
     max-width: 25%;
@@ -143,21 +170,12 @@ table {
     font-size: 1.3rem;
     margin-bottom: 2%;
 }
-.bio h2 {
-    text-align: center;
-    margin: 2% 0;
-    font-weight: bold;
-    font-size: 2rem;
-    color: white;
-}
 /*Qualities Component Styles*/
 .hireMe {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 15%;
-    padding: 5% 2%;
-    background-color: #002e4e;
+    background-color: #00375f;
 }
 .hireMe img {
     width: 35%;
@@ -169,27 +187,14 @@ table {
     font-size: 1.3rem;
     line-height: 1.3;
 }
-.qualities h2 {
-    text-align: center;
-    margin: 2% 0;
-    font-weight: bold;
-    font-size: 2rem;
-    color: white;
-}
 /*Projects Component Styles*/
 .projects {
     display: flex;
     flex-direction: column;
-    margin: 0 15%;
-    padding: 1% 2% 2%;
-    background-color: #003356;
+    background-color: #00406b;
 }
 .projects h2 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    margin: 3% 0 5%;
+    margin-bottom: 5%;
 }
 .project1, .project2, .project3, .project4, .project5, .project6 {
     display: flex;
@@ -252,15 +257,10 @@ table {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 15% 2%;
-    padding: 2%;
-    background-color: #003a61;
+    background-color: #004b7d;
 }
 .techStack h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    margin: 2% 0 5%;
+    margin-bottom: 5%;
 }
 .tileContainer {
     display: flex;
@@ -277,10 +277,15 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.tile h3 {
+    text-align: center;
+    padding-bottom: 2%;
+    width: 100%;
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 20px #00111c, 0 0 10px #00111c;
 }
 #javascript {
     background-image: url('./imgs/javascript.png');
@@ -390,7 +395,11 @@ table {
     background-size: 90%;
     background-color: white;
 }
-@media (max-width: 1600px) {
+
+
+
+
+/*@media (max-width: 1600px) {
     .banner, .me, .hireMe, .projects, .techStack {
         margin-left: 11%;
         margin-right: 11%;
@@ -513,4 +522,4 @@ table {
     .project1, .project2 {
         margin-bottom: 15%;
     }
-}
+}*/

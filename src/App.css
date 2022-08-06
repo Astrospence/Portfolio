@@ -84,8 +84,27 @@ h2 {
 #five {
     background-color: #003a61;
 }
-
-
+.modal {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #00406b;
+    padding: 2%;
+    z-index: 1000;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
 
 
 /*Banner Component Styles*/
@@ -176,6 +195,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     background-color: #00375f;
+    padding: 3%;
 }
 .hireMe img {
     width: 35%;
@@ -190,67 +210,48 @@ h2 {
 /*Projects Component Styles*/
 .projects {
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #00406b;
 }
 .projects h2 {
     margin-bottom: 5%;
 }
-.project1, .project2, .project3, .project4, .project5, .project6 {
+.projectTileContainer {
+    border-radius: 10px;;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-    height: 200px;
-    margin-bottom: 5%;
+    padding: 2%;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.5) inset;
 }
-.description {
-    margin: 0 2% 0 5%;
-    width: 100%;
-}
-.description h3 {
-    font-size: 1.6rem;
-    margin-bottom: 1%;
-    color: white;
-}
-.description p {
-    font-size: 1.3rem;
-}
-.projectImg {
-    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+.projectTile {
+    height: 225px;
+    width: 250px;
+    margin: 3%;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    height: 98%;
-    width: 20%;
-    background-repeat: no-repeat;
+    backdrop-filter: blur(7px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
 }
-.projectImg:hover {
-    box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.3);
+.projectTile h3 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px #00111c, 0 0 10px #00111c;
+    margin: 0 1%;
+}
+.projectTile:hover {
+    box-shadow: 1px 1px 7px 7px rgba(0, 0, 0, 0.2);
 }
 #growing {
     background-image: url('./imgs/growing.jpg');
     background-position: center;
     background-size: cover;
-}
-#underdogDevs {
-    background-image: url('./imgs/underdogDevs.png');
-    background-position: center;
-    background-size: cover;
-}
-#nerfTag {
-    background-image: url('https://images.unsplash.com/photo-1636581881418-2c45c2b9af4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-    background-position: left center;
-    background-size: cover;
-}
-.generic {
-    background-image: url('./imgs/placeholder.png');
-    background-position: center;
-    background-size: cover;
-}
-#pokeball {
-    background-image: url('./imgs/Pokeball.jpeg');
-    background-position: center;
-    background-size: contain;
-    background-color: white;
 }
 /*TechStack Component Styles*/
 .techStack {

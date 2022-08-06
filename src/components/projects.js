@@ -70,22 +70,22 @@ export default function Projects() {
                 <h2>My Projects</h2>
                 <div className='projectTileContainer' id='growing'>  
                     <div className='projectTile' onClick={onClickPortfolio}>
-                        <h3>My Portfolio - Front End</h3>
+                        <h3>My Portfolio<br></br> - Front End</h3>
                     </div>
                     <div className='projectTile' onClick={onClickUnderdog}>
-                        <h3>Underdog Devs - Back End</h3>
+                        <h3>Underdog Devs<br></br> - Back End</h3>
                     </div>
                     <div className='projectTile' onClick={onClickNerfTag}>
-                        <h3>Nerf Tag Battle Game - Full Stack</h3>
+                        <h3>Nerf Tag Battle Game<br></br> - Full Stack</h3>
                     </div>
                     <div className='projectTile' onClick={onClickAuth}>
-                        <h3>Authentication/Testing - Back End</h3>
+                        <h3>Authentication/Testing<br></br> - Back End</h3>
                     </div>
                     <div className='projectTile' onClick={onClickServer}>
-                        <h3>Server Build - Back End</h3>
+                        <h3>Server Build<br></br> - Back End</h3>
                     </div>
                     <div className='projectTile' onClick={onClickPokemon}>
-                        <h3>Pokemon Comparison App - Front End</h3>
+                        <h3>Pokemon Comparison App<br></br> - Front End</h3>
                     </div>
                 </div>
             </div>

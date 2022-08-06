@@ -70,6 +70,7 @@ h2 {
 }
 #one {
     background-color: #002137;
+    margin-top: 1%;
 }
 #two {
     background-color: #00253e;
@@ -416,102 +417,139 @@ h2 {
 
 
 
-/*@media (max-width: 1600px) {
-    .banner, .me, .hireMe, .projects, .techStack {
-        margin-left: 11%;
-        margin-right: 11%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    .description {
-        width: 85%;
+@media (max-width: 1600px) {
+    .container {
+        margin: 0 10%;
     }
 }
 @media (max-width: 1400px) {
-    .banner, .me, .hireMe, .projects, .techStack {
-        margin-left: 7%;
-        margin-right: 7%;
+    .container {
+        margin: 0 7%;
+    }
+    .modal p {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1300px) {
+    .bio, .qualities {
+        font-size: 1.2rem;
     }
 }
 @media (max-width: 1200px) {
-    .bio, .qualities, .description p, .techStack {
-        font-size: 1.15rem;
+    .container {
+        margin: 0;
     }
-    .tile {
-        height: 150px;
-        width: 150px;
-        font-size: 1.8rem;
+    #one {
+        margin: 0;
     }
     .github {
         background-size: 60%;
     }
 }
-@media (max-width: 1000px) {
-    .banner, .me, .hireMe, .projects, .techStack {
-        margin: 0;
+@media (max-width: 1080px) {
+    .container {
+        padding: 1%;
     }
-    .bio, .qualities, .description p {
-        font-size: 1.05rem;
-    }
-    .description {
-        width: 70%;
-    }
-}
-@media (max-width: 900px) {
-    .projectImg {
-        width: 23%;
+    .bio, .qualities {
+        font-size: 1.1rem;
     }
     .github {
         background-size: 70%;
     }
+    .projectTileContainer {
+        padding: 3% 10%;
+    }
+    .modal p {
+        font-size: 1.3rem;
+    }
 }
-@media (max-width: 800px) {
-    .bio, .qualities, .description p {
-        font-size: 0.9rem;
+@media (max-width: 900px) {
+    .bio, .qualities {
+        font-size: 1rem;
     }
     .github {
-        background-size: 80%;
+        background-size: 75%;
     }
-    .projectImg {
-        width: 26%;
-    }
-}
-@media (max-width: 600px) {
-    .bio, .qualities, .description p {
-        font-size: 0.8rem;
-    }
-    .banner h2, .me h2, .hireMe h2, .projects h2, .techStack h2 {
+    h2 {
         font-size: 1.5rem;
     }
-    .projectImg {
-        height: 75%;
+}
+@media (max-width: 800px) {
+    .bio, .qualities {
+        font-size: 0.85rem;
+    }
+    .github {
+        background-size: 85%;
+    }
+    .projectTileContainer {
+        padding: 3% 7%;
+    }
+    .projectTile h3 {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 740px) {
+    .techStack {
+        padding: 2% 10%;
+    }
+}
+@media (max-width: 717px) {
+    .bio, .qualities {
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    .tile h3 {
+        font-size: 2.2rem;
     }
     .github {
         background-size: 90%;
     }
-    .banner {
-        height: 200px;
+    .projectTileContainer {
+        justify-content: center;
+    }
+    .modal p {
+        font-size: 1.1rem;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 680px) {
+    .hireMe img {
+        display: none;
+    }
+    .hireMe {
+        justify-content: center;
+    }
+    .qualities {
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 554px) {
+    .buttons {
+        height: 50%;
+    }
+    .banner {
+        height: 150px;
+        padding: 0;
+    }
     .me, .hireMe {
         flex-direction: column;
+    }
+    .me {
+        padding-top: 4%;
     }
     .bio {
         width: 90%;
     }
     .qualities {
         width: 90%;
-        margin-bottom: 5%;
+        margin-bottom: 4%;
     }
-    .projectImg {
-        height: 60%;
-    }
-    .description h3 {
-        font-size: 1.1rem;
+    .hireMe img {
+        display: none;
     }
     .github {
-        background-size: 100%;
+        background-size: 75%;
     }
     .tile {
         height: 100px;
@@ -520,23 +558,32 @@ h2 {
     .tileContainer h3 {
         font-size: 1.2rem;
     }
+    .modal p {
+        font-size: 1rem;
+    }
 }
 @media (max-width: 450px) {
-    .bio, .qualities, .description p {
+    .banner {
+        padding-top: 3%;
+    }
+    .bio, .qualities {
         font-size: 0.7rem;
     }
-    .projectImg {
-        height: 50%;
+    .modal p {
+        font-size: 0.9rem;
     }
-    .banner {
-        height: 150px;
+    .buttons {
+        height: 40%;
+    }
+    h2 {
+        font-size: 1.2rem;
     }
 }
 @media (max-width: 380px) {
-    .projectImg {
-        height: 45%;
+    .modal p {
+        font-size: 0.8rem;
     }
-    .project1, .project2 {
-        margin-bottom: 15%;
+    .github {
+        background-size: 90%;
     }
-}*/
+}
